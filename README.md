@@ -18,3 +18,9 @@ This Flask-based REST API calculates the minimum delivery cost from multiple war
   "B": 2,
   "H": 1
 }
+
+### 📦 Response Format (JSON)
+```json
+{
+   "minimum_cost": 104
+}
