@@ -6,8 +6,8 @@ This Flask-based REST API calculates the minimum delivery cost from multiple war
 ---
 
 ### 🔗 Live Demo
-**POST Endpoint:** [`/calculate`](https://delivery-cost-api.onrender.com/calculate)  
-**Base URL:** `https://delivery-cost-api.onrender.com/calculate`
+**POST Endpoint:** [`/calculate`](https://twf-assignment-3zcv.onrender.com/calculate)  
+**Base URL:** `https://twf-assignment-3zcv.onrender.com/calculate`
 
 ---
 
@@ -15,12 +15,12 @@ This Flask-based REST API calculates the minimum delivery cost from multiple war
 ```json
 {
   "A": 1,
-  "B": 2,
-  "H": 1
+  "B": 1,
+  "C": 1
 }
 
 ### 📦 Response Format (JSON)
 ```json
 {
-   "minimum_cost": 104
+   "minimum_cost": 78
 }
